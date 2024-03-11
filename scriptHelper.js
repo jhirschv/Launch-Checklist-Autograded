@@ -39,6 +39,7 @@ function addDestinationInfo(document, name, diameter, star, distance, moons, ima
     } 
  }
  
+ 
  function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
     let firstInputValidation = validateInput(pilot)
     let secondInputValidation = validateInput(copilot)
